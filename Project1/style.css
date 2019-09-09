@@ -1,0 +1,48 @@
+.container{
+    width: 1024px;
+    /* background-color: rgb(18,60,12); */
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    background-color: rgb(41,96,36);
+    min-height: 100px;
+}
+main{
+    /* background-color: rgb(49,139,41); */
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+.cards{
+    background-color: rgb(53, 219, 38);
+    min-height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.cards1{
+    background-color: rgb(139, 31, 139);
+    min-height: 300px;
+    width: 30%;
+}
+.cards2{
+    background-color: rgb(218, 84, 223);
+    min-height: 300px;
+    width: 30%;
+}
+.cards3{
+    background-color: rgb(61, 6, 63);
+    min-height: 300px;
+    width: 30%;
+}
+.hero1{
+    /* background-color: aquamarine; */
+    flex:2;
+  
+}
+.hero2{
+    /* background-color: darkkhaki; */
+    flex:1;
+}
