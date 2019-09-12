@@ -16,6 +16,10 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
 
 header{
     /* background-color: rgb(41,96,36); */
@@ -32,26 +36,38 @@ main{
     display: flex;
     align-items: center;
 }
-.cards{
-    background-color: rgb(53, 219, 38);
-    min-height: 300px;
+.cards{  
     display: flex;
     justify-content: space-between;
+    text-align: center;
 }
 .cards1{
-    background-color: rgb(139, 31, 139);
-    min-height: 300px;
+    background-image: url(image/image-background-card1.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
     width: 30%;
+    border-radius: 12px 12px 12px 12px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.795);
+    
 }
 .cards2{
-    background-color: rgb(218, 84, 223);
-    min-height: 300px;
+    background-image: url(image/image-background-card2.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
     width: 30%;
+    border-radius: 12px 12px 12px 12px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.795);
 }
 .cards3{
-    background-color: rgb(61, 6, 63);
-    min-height: 300px;
+    background-image: url(image/image-background-card3.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
     width: 30%;
+    border-radius: 12px 12px 12px 12px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.795);
 }
 .hero1{
     /* background-color: aquamarine; */
@@ -67,8 +83,38 @@ h1{
     font-size: 3.25rem;
     font-family: 'Playfair Display', serif;
     margin-bottom: 1rem;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.795);
+}
+h2{
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    margin-top: 20px;
 }
 p{
     line-height: 1.75rem;
     margin-bottom: 1rem;
+}
+.cards p{
+    font-size:0.85rem;
+    line-height: 1.2rem;
+    margin: 10px 30px 20px 30px;
+}
+.cards img{
+    padding-top: 30px;
+}
+.mybutton{
+    background-color: white;
+    color: #FA4083;
+    padding: 11px 25px;
+    font-family: 'Playfair Display', serif;
+    border-radius: 12px 0px 12px 0px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.795);
+}
+a.mybutton{
+    display: inline-block;
+    margin-top: 20px;
+}
+.hero2 img{
+    border-radius:  12px 12px 12px 12px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.795);
 }
