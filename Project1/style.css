@@ -1,10 +1,12 @@
 html{
-    height: 120%;
-    
+    /* height: 120%; */
+    background-image: linear-gradient(#FC5E55 ,#FA4083);    
 }
 body{
     /* background-color: #FC5E55; */
-    background-image: linear-gradient(#FC5E55 ,#FA4083);
+    background-image: url('image/image-lion-background.png');
+    background-position: top center;
+    background-repeat: no-repeat;
     font-family: 'Roboto', sans-serif;
     color: white;
     font-size: 1.125rem;
@@ -29,6 +31,9 @@ header{
     align-items: center;
     padding-top: 20px;
     padding-bottom: 20px;
+    border-bottom: 1px solid lightgray;
+    
+    
 }
 main{
     /* background-color: rgb(49,139,41); */
@@ -110,6 +115,20 @@ p{
     border-radius: 12px 0px 12px 0px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.795);
 }
+.mybutton:hover{
+    background-color: rgba(42, 218, 101, 0.856);
+    transition-duration: 0.5s;
+    color: white;
+}
+.navButton:hover{
+    background-color: white;
+    transition-duration: 1s;
+
+}
+
+.navButton:hover a{
+    color: #FA4083;
+}
 a.mybutton{
     display: inline-block;
     margin-top: 20px;
@@ -118,3 +137,61 @@ a.mybutton{
     border-radius:  12px 12px 12px 12px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.795);
 }
+nav a.mybutton{
+    margin-left: 30px;
+}
+.navButton{
+    border: 1px solid white;
+    padding: 11px 25px;
+    font-family: 'Playfair Display', serif;
+    display: inline-block;
+    position: relative;
+
+}
+.testimonials{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+
+}
+.tbox{
+    width: 37%;
+    padding: 50px;
+    border: 1px solid white;
+    /* box-sizing: border-box; */
+    margin-top: 50px;
+
+}
+.tbox p:last-of-type{
+    font-size: 0.8rem;
+    font-style: italic;
+    font-weight: bold;
+    padding-left: 250px;
+}
+
+.dropdown{
+    display: none;
+    position: absolute;
+    
+    z-index: 1;
+    padding-top: 20px;
+    margin-left: -26px;
+}
+.navButton:hover .dropdown{
+    text-align: center;    
+    display: block;
+    transition-duration: 1s;
+    color: #FA4083;    
+}
+.dropdown .navButton{
+    width: 99px;
+    background-color: rgba(255, 255, 255, 0.527);
+    
+}
+.dropdown .navButton:hover{
+    background-color: white;
+    transition-duration: 1s;
+
+}
+
