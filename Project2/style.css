@@ -1,6 +1,4 @@
 /* Global View */
-
-
 .container{
     background-color: aquamarine;
     min-height: 500px;
@@ -19,26 +17,8 @@ h1{
     width: 30%;
     margin-bottom: 40px;
 }
-
-
-
-
-
-
-
-/* Tablet View */
-@media (max-width: 768px){
-   
-.col{
-    width: 47%;
-
-} 
-
-
-
-
-
-
+.hide-dektop-only{
+    display: none;
 }
 
 
@@ -46,11 +26,26 @@ h1{
 
 
 
+/* Tablet View */
+@media (max-width: 768px){   
+.col{
+    width: 47%;
+} 
+.hide-dektop-only{
+    display: block;
+}
 
+
+
+
+}
 /* Mobile View */
 @media (max-width: 400px){
  
     .col{
         width: 100%;
+    }
+    .hide-mobile-only{
+        display: none;
     }
 }
