@@ -1,0 +1,56 @@
+/* Global View */
+
+
+.container{
+    background-color: aquamarine;
+    min-height: 500px;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+h1{
+    font-size: 1.5rem;
+}
+.col{
+    background-color: pink;
+    min-height: 200px;
+    width: 30%;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+/* Tablet View */
+@media (max-width: 768px){
+   
+.col{
+    width: 47%;
+
+} 
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+/* Mobile View */
+@media (max-width: 400px){
+ 
+    .col{
+        width: 100%;
+    }
+}
