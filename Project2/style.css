@@ -1,26 +1,87 @@
 /* Global View */
+body{
+    font-family: 'Asap', sans-serif;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+header{
+    max-width: 1024px;
+    min-height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header-container{
+    background-color: rgb(61, 61, 61);
+    min-height: 100px;
+    margin-bottom: 40px;
+    position: fixed;
+    width: 100%;
+    
+    
+}
 .container{
-    background-color: aquamarine;
+    
     min-height: 500px;
     max-width: 1024px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding-top: 140px;
+    
+}
+
+
+.logo{
+    
+}
+.bold{
+    font-weight: 700;
+    color: rgb(17, 185, 129);
+}
+nav{
+    
+}
+.mybutton{
+    padding: 10px 25px;
+    border: 1px solid;
+    margin-left: 20px;
+}
+.mybutton:hover{
+ background-color: white;
+ color: black;
+ transition-duration: 0.7s;
 }
 h1{
     font-size: 1.5rem;
 }
 .col{
-    background-color: pink;
-    min-height: 200px;
+    background-color: rgb(17, 185, 129);
     width: 30%;
     margin-bottom: 40px;
 }
 .hide-dektop-only{
     display: none;
 }
-
+.col img{
+    width: 100%;
+    height: auto;
+}
+.col p::first-line{
+    font-weight: 700;
+}
+.col p{
+    
+    font-size: 0.875rem;
+    padding: 20px 25px;
+    line-height: 1.25rem;
+}
 
 
 
@@ -34,7 +95,26 @@ h1{
 .hide-dektop-only{
     display: block;
 }
-
+header{
+    display:block;
+    text-align: center;
+    
+}
+.header-container{
+    position: relative;
+}
+.container{
+    padding-top: 30px;
+}
+nav a{
+    display: block;
+}
+.logo{
+    padding: 40px 0;
+}
+.mybutton{
+    margin-left: 0;
+}
 
 
 
@@ -48,4 +128,5 @@ h1{
     .hide-mobile-only{
         display: none;
     }
+   
 }
